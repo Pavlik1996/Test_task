@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, serif
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--light-text);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    /*border: greenyellow 1px solid;*/
+    max-width: 1141px;
+    width: 100%;
+}
+
+.wrapper > header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-bottom: 90px;
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navigate > nav {
+    margin-left: 52px;
+}
+.text-header {
+    position: absolute;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: Montserrat, serif;
+    top: 80px;
+}
+
+.link {
+    padding-right: 30px;
+}
+
+.navigate > nav:last-child {
+    padding-right: 0;
+}
+
+.number {
+    margin-right: 47px;
+}
+
+.block-social-links {
+}
+
+.social-link {
+    margin-right: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 69px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+}
